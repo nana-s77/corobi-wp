@@ -1,33 +1,24 @@
+@charset 'utf-8';
 * {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   color: #707070;
   font-size: 1rem;
 }
-
 body {
   width: 1000px;
   height: auto;
 }
-
 ul {
   list-style: none;
 }
-
 a {
   text-decoration: none;
   color: #707070;
 }
-
 .flex {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
 }
-
 /*header*/
 .header-logo {
   display: block;
